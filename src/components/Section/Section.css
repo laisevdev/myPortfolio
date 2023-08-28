@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    max-width:1000px;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "aboutme skills"
+    "aboutme abilities";
+
+    margin: 30px auto;
+    gap: 70px;
+
+}
+
+.aboutme {
+    grid-area: "aboutme";
+}
+
+.aboutme h1 {
+    color: #81099f;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.aboutme p {
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 15px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.name, .blocktech, .skillsmain, .toolsbuild, .decentralizedtech, .learnmore {
+    color:  #f7f430;
+}
+
+.skills h1 {
+    color: #81099f;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.skills h2 {
+    color: #fff;
+    font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-size: 18px;
+}
+
+.abilities {
+    grid-area: "abilities";
+    display: block;
+}
+
+ul li {
+    color: #fff;
+    list-style: none;
+    padding: 10px;
+} 
+
+li {
+    display: flex;
+}

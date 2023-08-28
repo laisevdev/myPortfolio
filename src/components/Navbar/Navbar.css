@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    max-width: 1100px;
+    margin: 30px auto;
+
+    display: grid;
+    grid-template-areas: "logotipo menu";
+}
+
+.menu {
+    grid-area: "menu";
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.menu li {
+    padding: 0 8px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 22px;
+
+    background-color: #ffffff0c;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+a[href^="#contato"]  {
+    background-color: #81099f;
+    color: #f5d224;
+}
+
+.image {
+    width: 80px;
+    height: 80px;    
+    border-radius: 50px;    
+    cursor: pointer;
+}
+

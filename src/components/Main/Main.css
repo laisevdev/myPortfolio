@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+   max-width: 1000px;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   margin: 120px auto;
+
+   font-family:'Robot Condensed';
+}
+
+.profile, h1 {
+    color: #e5e4e1c8;
+    font-size: 19px;
+}
+
+.myname {
+    color:#fff;
+    font-size: 23px;
+}
+
+.profile, h2 {
+    font-size: 52px;
+    color:#81099f;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+.block {
+    display: block;
+    font-size: 52px;
+    color:#81099f;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+
+}
+
+.profile p {
+    font-size: 18px;
+    color: #e5e4e1c8;
+    text-align: justify;
+}
+
+.profile-img img {
+    max-width: 320px;
+    border-radius: 8px;
+
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: #f7f430;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f6e207;
+}
+
+
+
+@media (max-width:1024px) {
+    .navbar{
+        width: 95%;
+    }
+
+    .title, h1 {
+        font-size: 26px;
+        margin: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .title, h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:480px) {
+
+    .navbar {
+        max-width: 414px;
+        min-width: 360px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0 auto;
+    
+     }
+     
+    .title, h1 {
+        width: 100%;
+        font-size: 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 0 15px 0;
+    }
+}
