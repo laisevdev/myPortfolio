@@ -36,7 +36,7 @@
 }
 
 .name, .blocktech, .skillsmain, .toolsbuild, .decentralizedtech, .learnmore {
-    color:  #f7f430;
+    color:  #81099f;
 }
 
 
@@ -71,6 +71,6 @@
 } 
 
 .skills li:hover {
-    color: #f7f430;
-    border: 1px solid  #f7f430;
+    color: #81099f;
+    border: 1px solid  #81099f;
 }
