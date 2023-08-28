@@ -9,7 +9,7 @@ const Section = () => {
         <h1>Prazer em te conhecer!</h1>
 
         <p>
-          Me chamo <span className='name'>Laíse</span>, brasileira natural do Mato Grosso, entusiasta e apaixonada pela <span className='blocktech'>tecnologia Blockchain</span> (Criptomoedas, NFT's, DEFI e Web3). Tenho acompanhado o desenvolvimento desse ecossistema desde inicio de 2021.
+          Me chamo <span className='name'>Laíse</span>, brasileira natural do Mato Grosso, entusiasta e apaixonada pela <span className='blocktech'>tecnologia Blockchain</span> (Criptomoedas, NFT, DEFI e Web3). Tenho acompanhado o desenvolvimento desse ecossistema desde inicio de 2021.
         </p>
         <p>
           Me considero uma pessoa <span className='skillsmain'>observadora, focada, resiliente</span> e com habilidades em aprender rápido e fácil. 
