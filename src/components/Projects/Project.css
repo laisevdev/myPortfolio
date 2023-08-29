@@ -11,8 +11,21 @@
     justify-content: center;
 
     margin: 150px auto;
-    gap: 80px;
-   
+    gap: 100px;
+}
+
+.projects h1 {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    border: 2px #81099f;
+    color: aqua;
+}
+
+.projects p {
+    display: inline-flex;
+    border: 2px #6d0434;
+    color: rgb(192, 7, 155);
 }
 
 
@@ -26,6 +39,20 @@
     gap: 10px;
 }
 
+.description h1 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.description h1:hover {
+    color: #81099f;
+}
+
+.description p {
+    color: #e5e4e1c8;
+    font-size: 14px;
+}
+
 
 
 .card {
@@ -34,7 +61,7 @@
     margin: 0 auto;
     background-color:  #1f1d1d3a;
     border-radius: 12px;
-    padding: 10px 0;
+    padding: 5px 0;
     box-shadow: 8px 8px 15px -5px;
     transition: all 0.8s ease 0.1s;
     align-content: center;
@@ -51,10 +78,38 @@
 
 .card img {
     max-width: 350px;
-    height: 250px;
+    height: 240px;
     margin: 0 auto;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.technologies {
+    max-width: 300px;
+    min-width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.technologies li {
+    list-style: none;
+    display: inline-flex;
+    padding: 5px;
+}
+
+.technologies li a:hover {
+    transition: all 0.7s;
+    transform: translateY(-6px); 
+}
+
+.technologies img {
+    display: flex;
+    max-width: 60px;
+    height: 30px;
 }
