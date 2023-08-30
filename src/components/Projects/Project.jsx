@@ -120,9 +120,8 @@ const Project = () => {
                                 </li>
                             </ul>
                         </div>
-
                         <li>
-                            <a href='https://dappnftnoob.on.fleek.co/'>
+                            <a href='https://dappnftnoob.on.fleek.co/'  target='blank_'>
                             🌐 Visite o site
                             </a>
                         </li>
@@ -161,7 +160,7 @@ const Project = () => {
                         </div>
 
                         <li>
-                            <a href='https://github.com/laisevdev/BasicERC1155'>
+                            <a href='https://github.com/laisevdev/BasicERC1155'  target='blank_'>
                             🌐 Visite o projeto
                             </a>
                         </li>
@@ -198,9 +197,8 @@ const Project = () => {
                                 </li>
                             </ul>
                         </div>
-
                         <li>
-                            <a href='https://solpower.netlify.app/'>
+                            <a href='https://solpower.netlify.app/'  target='blank_'>
                             🌐 Visite o site
                             </a>
                         </li>
