@@ -7,9 +7,12 @@ import imghtml from '../../Assets/html5.png'
 import imgcss from '../../Assets/css3.png'
 import imgreactjs from '../../Assets/reactjs.png'
 import imghardhat from '../../Assets/hardhat.png'
+import imgethproj from '../../Assets/eth-proj.png'
+
 
  
 const NFT_MINT = imgdapp;
+const ETHPROJ = imgethproj;
 const SOLPOWER = imgsolpower;
 
 /*TECHNOLOGIES  */
@@ -26,87 +29,182 @@ const HARDHAT = imghardhat;
 const Project = () => {
   return (
     <>
-        <section className='projects'>
+     <div className='titleproj'>
+               <h1>
+                    Projetos
+                </h1>
 
-            <div className='card'>
-                <a href="">
-                    <img src={NFT_MINT} alt="NFTMint" />
-                </a>
-                <div className='description'>
-                    <h1>
-                        NFTNoob- NFT Collection
-                    </h1>
-                    <p>
-                        Aplicativo descentralizado para mint de Non-Fungible-Tokens(NFT).
-                    </p>
-                </div>
-                <div className='technologies'>
-                    <ul>
+                <p>
+                    Aqui estão alguns projetos nos quais eu construí ao longo da minha jornada.
+                </p>
+            
+               </div>  
+        
+        <section className='projects'>                           
+            
+                <div className='card'>
+                        <a href="">
+                            <img src={SOLPOWER} alt="SolPower" />
+                        </a>
+                        <div className='description'>
+                            <h1>
+                                EM DESENVOLVIMENTO
+                            </h1>
+                            <p>
+                                Aplicativo descentralizado para mint de Non-Fungible-Tokens(NFT).
+                            </p>
+                        </div>
+                        <div className='technologies'>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <img src={JS_} alt="JavaScript" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src={HTML_} alt="HTML5" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" alt="CSS3">
+                                        <img src={CSS_} alt="CSS3" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>                   
+                    <div className='card'>
+                        <a href="">
+                            <img src={NFT_MINT} alt="NFTMint" />
+                        </a>
+                        <div className='description'>
+                            <h1>
+                                NFTNoob- NFT Collection
+                            </h1>
+                            <p>
+                                Aplicativo descentralizado para mint de Non-Fungible-Tokens(NFT).
+                            </p>
+                        </div>
+                        <div className='technologies'>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <img src={SOLIDITY} alt="Solidity" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src={JS_} alt="JavaScript" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src={REACT_} alt="ReactJS" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src={HARDHAT} alt="Hardhat" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src={HTML_} alt="HTML5" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src={CSS_} alt="CSS3" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
                         <li>
-                            <a href="">
-                                <img src={SOLIDITY} alt="Solidity" />
+                            <a href='https://dappnftnoob.on.fleek.co/'>
+                            🌐 Visite o site
                             </a>
                         </li>
+                    </div>
+
+                    <div className='card'>
+                        <a href="">
+                            <img src={ETHPROJ} alt="SolPower" />
+                        </a>
+                        <div className='description'>
+                            <h1>
+                                || ERC-1155 ||
+                            </h1>
+                            <p>
+                                Aplicativo descentralizado para mint de Non-Fungible-Tokens(NFT).
+                            </p>
+                        </div>
+                        <div className='technologies'>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <img src={JS_} alt="JavaScript" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src={HTML_} alt="HTML5" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" alt="CSS3">
+                                        <img src={CSS_} alt="CSS3" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
                         <li>
-                            <a href="">
-                                <img src={JS_} alt="JavaScript" />
+                            <a href='https://github.com/laisevdev/BasicERC1155'>
+                            🌐 Visite o projeto
                             </a>
                         </li>
+                    </div>
+
+                    <div className='card'>
+                        <a href="">
+                            <img src={SOLPOWER} alt="SolPower" />
+                        </a>
+                        <div className='description'>
+                            <h1>
+                                SolPower
+                            </h1>
+                            <p>
+                                Aplicativo descentralizado para mint de Non-Fungible-Tokens(NFT).
+                            </p>
+                        </div>
+                        <div className='technologies'>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <img src={JS_} alt="JavaScript" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src={HTML_} alt="HTML5" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" alt="CSS3">
+                                        <img src={CSS_} alt="CSS3" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
                         <li>
-                            <a href="">
-                                <img src={REACT_} alt="ReactJS" />
+                            <a href='https://solpower.netlify.app/'>
+                            🌐 Visite o site
                             </a>
                         </li>
-                        <li>
-                            <a href="">
-                                <img src={HARDHAT} alt="Hardhat" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src={HTML_} alt="HTML5" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src={CSS_} alt="CSS3" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div className='card'>
-                <a href="">
-                    <img src={SOLPOWER} alt="SolPower" />
-                </a>
-                <div className='description'>
-                    <h1>
-                        SolPower
-                    </h1>
-                    <p>
-                        Aplicativo descentralizado para mint de Non-Fungible-Tokens(NFT).
-                    </p>
-                </div>
-                <div className='technologies'>
-                    <ul>
-                        <li>
-                            <a href="">
-                                <img src={JS_} alt="JavaScript" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src={HTML_} alt="HTML5" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src={CSS_} alt="CSS3" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                    </div>
 
             
         </section>
