@@ -1,33 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 * {
     padding: 0;
     margin: 0;
-    max-width:100vw;
 }
 
 .projects {
-    max-width:100vw;
+    max-width:1000px;
     display: grid;
-    grid-template-areas: "card card";
+    grid-template-areas:"h1proj h1proj"
+    "card card card";
+    grid-template-columns: 2fr 1fr;
     justify-content: center;
 
-    margin: 150px auto;
-    gap: 100px;
+    margin: 80px auto;
+    gap: 90px;
 }
 
-.projects h1 {
-    width: 100px;
+.titleproj h1{
+    color: #fff;
     display: flex;
+    margin: 0 auto 30px 0px;
+    text-align: center;
     justify-content: center;
-    border: 2px #81099f;
-    color: aqua;
+    font-size: 40px;
+    font-family: 'Robot Condensed';
+    
 }
 
-.projects p {
-    display: inline-flex;
-    border: 2px #6d0434;
-    color: rgb(192, 7, 155);
+.titleproj p {
+    color: #e5e4e1c8;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 19px;
 }
-
 
 .description {
     display: flex;
@@ -44,16 +51,10 @@
     font-size: 18px;
 }
 
-.description h1:hover {
-    color: #81099f;
-}
-
 .description p {
     color: #e5e4e1c8;
     font-size: 14px;
 }
-
-
 
 .card {
     grid-area: "card";
@@ -112,4 +113,21 @@
     display: flex;
     max-width: 60px;
     height: 30px;
+}
+
+.card li {
+    list-style: none;
+}
+
+.card li a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #e5e4e1c8;
+    margin: 0 auto;
+}
+
+.card li a:hover {
+    color: #81099f
 }
