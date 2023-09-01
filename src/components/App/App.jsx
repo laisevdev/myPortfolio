@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import Main from '../Main/Main';
 import Section from '../Section/Section'
 import Projects from '../Projects/Project';
+import Footer from '../Footer/Footer';
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Main />
       <Section />
       <Projects />
+      <Footer />
       
       
     </>
