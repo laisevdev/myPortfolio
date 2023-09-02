@@ -133,10 +133,10 @@ const Project = () => {
                         </a>
                         <div className='description'>
                             <h1>
-                                || ERC-1155 ||
+                                ERC-1155 
                             </h1>
                             <p>
-                                Aplicativo descentralizado para mint de Non-Fungible-Tokens(NFT).
+                                Contrato Inteligente Padrão ERC-1155 implantado na rede Polygon.
                             </p>
                         </div>
                         <div className='technologies'>
