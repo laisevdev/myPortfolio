@@ -1,5 +1,9 @@
 import './Footer.css'
+import imglinkedin from '../../Assets/linkedin.png'
+import imggithub from '../../Assets/github.png'
 
+const LINKEDIN = imglinkedin;
+const GITHUB = imggithub;
 
 const Footer = () => {
   return (
@@ -18,12 +22,12 @@ const Footer = () => {
           <ul>
             <li>
               <a href="">
-                <img src="" alt="" />
+                <img src={LINKEDIN}alt="" />
               </a>
             </li> 
             <li>
               <a href="">
-                <img src="" alt="" />
+                <img src={GITHUB} alt="" />
               </a>
             </li>          
           </ul>
