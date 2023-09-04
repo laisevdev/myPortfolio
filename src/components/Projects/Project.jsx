@@ -55,10 +55,25 @@ const Project = () => {
                             </p>
                         </div>
                         <div className='technologies'>
-                            <ul>
+                        <ul>
+                                <li>
+                                    <a href="">
+                                        <img src={SOLIDITY} alt="Solidity" />
+                                    </a>
+                                </li>
                                 <li>
                                     <a href="">
                                         <img src={JS_} alt="JavaScript" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src={REACT_} alt="ReactJS" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src={HARDHAT} alt="Hardhat" />
                                     </a>
                                 </li>
                                 <li>
@@ -67,7 +82,7 @@ const Project = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" alt="CSS3">
+                                    <a href="">
                                         <img src={CSS_} alt="CSS3" />
                                     </a>
                                 </li>
