@@ -143,17 +143,12 @@ const Project = () => {
                             <ul>
                                 <li>
                                     <a href="">
-                                        <img src={JS_} alt="JavaScript" />
+                                        <img src={SOLIDITY} alt="Solidity" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <img src={HTML_} alt="HTML5" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" alt="CSS3">
-                                        <img src={CSS_} alt="CSS3" />
+                                        <img src={HARDHAT} alt="HARDHAT" />
                                     </a>
                                 </li>
                             </ul>
