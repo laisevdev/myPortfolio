@@ -51,7 +51,7 @@ const Project = () => {
                                 EM DESENVOLVIMENTO
                             </h1>
                             <p>
-                                Aplicativo descentralizado para mint de Non-Fungible-Tokens(NFT).
+                                Projeto de aplicativo descentralizado onde será utilizado Padrão Token ERC-1155 da Ethereum Network.
                             </p>
                         </div>
                         <div className='technologies'>
