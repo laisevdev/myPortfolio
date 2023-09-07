@@ -11,12 +11,12 @@ const Footer = () => {
         <section className='footer'>
           <div className='titlefooter'>
             <h1>Entre em contato</h1>
-            <p>Estou sempre aberta para conversar, então não hesite em entrar em contato comigo</p>
+            <p>Estou sempre aberta para conversar, então não hesite em entrar em contato comigo.</p>
           </div>
         
           <ul className='chatme'>
             <li>
-              <a href="">Diga Olá</a>
+              <a href="https://t.me/laisev" target='blank_'>Diga Olá</a>
             </li>            
           </ul>
 
