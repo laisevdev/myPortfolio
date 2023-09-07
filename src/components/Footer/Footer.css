@@ -48,8 +48,8 @@
 .chatme li{
     list-style: none;
     background-color: #ffffff0c;
-    border-radius: 6px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 6px 20px;
 }
 
 .chatme a{
@@ -63,7 +63,7 @@
 
 .social {
     display: inline-flex;
-    max-width: 500px;
+    max-width: 1500px;
 }
 
 .social li {
