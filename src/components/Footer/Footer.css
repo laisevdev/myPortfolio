@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Robot Condensed';
 }
 
 .footer {
@@ -28,6 +29,13 @@
 .titlefooter h1 {
     display: flex;
     justify-content: center;
+    font-size: 38px; 
+    margin: 20px 0 20px 0;   
+}
+
+.titlefooter p {
+    font-size: 19px;
+    color: #e5e4e1d9;    
 }
 
 .chatme {
@@ -35,7 +43,6 @@
     grid-area: "chatme";
     justify-content: center;
     max-width: 1000px;
-    outline: 2px;
 }
 
 .chatme li{
@@ -69,5 +76,5 @@
 }
 
 .social h2 {
-    font-size: 19px;
+    font-size: 18px;
 }
