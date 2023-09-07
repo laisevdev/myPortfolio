@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    max-width:1000px;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "titlefooter"
+    "chatme"
+    "social" ;
+    justify-content: center;
+    align-items: center;
+
+    margin: 60px auto;
+
+}
+
+.titlefooter {
+    max-width: 1000px;
+    grid-area: "titlefooter";
+   justify-content: center;
+}
+
+.titlefooter h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.chatme {
+    display: flex;
+    grid-area: "chatme";
+    justify-content: center;
+    max-width: 1000px;
+    outline: 2px;
+}
+
+.chatme li{
+    list-style: none;
+    background-color: #ffffff0c;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.chatme a{
+    color: #81099f;
+    text-decoration: none;
+}
+
+.chatme a:hover {
+    color: aliceblue;
+}
+
+.social {
+    display: inline-flex;
+    max-width: 500px;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social img {
+    max-width: 50px;
+    height: 50px;
+}
+
+.social h2 {
+    font-size: 19px;
+}
