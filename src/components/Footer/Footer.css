@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
 
-    margin: 60px auto;
+    margin: 160px auto 0px auto;
 
 }
 
@@ -29,13 +29,14 @@
 .titlefooter h1 {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 38px; 
-    margin: 20px 0 20px 0;   
+    margin: 20px 0;   
 }
 
 .titlefooter p {
     font-size: 19px;
-    color: #e5e4e1d9;    
+    color: #e5e4e18c;    
 }
 
 .chatme {
@@ -62,12 +63,20 @@
 }
 
 .social {
-    display: inline-flex;
-    max-width: 1500px;
+    grid-area: 'social';
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.social ul {
+    display: flex;
 }
 
 .social li {
     list-style: none;
+    display: flex;
 }
 
 .social img {
