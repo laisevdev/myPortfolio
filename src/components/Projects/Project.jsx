@@ -43,12 +43,11 @@ const Project = () => {
         <section className='projects'>                           
             
                 <div className='card'>
-                        <a href="">
-                            <img src={SOLPOWER} alt="SolPower" />
-                        </a>
+                    <div className="loader">
+                    </div>
                         <div className='description'>
                             <h1>
-                                EM DESENVOLVIMENTO
+                                Em Desenvolvimento
                             </h1>
                             <p>
                                 Projeto de aplicativo descentralizado onde será utilizado Padrão Token ERC-1155 da Ethereum Network.
