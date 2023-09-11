@@ -1,20 +1,21 @@
 import './Main.css'
 import imgprof from '../../Assets/profile.jpeg'
+import curriculo from '../../Assets/desenvblockchain.pdf'
 
 const PICTURE = imgprof;
-
-const COVERLETTER = 'http://localhost:5173/Desenv.Blockchain.pdf';
+const COVERLETTER = curriculo;
 
 const Main = () => {
 
-  const downloadFile = (url) => {
-    const fileName = url.split('/').pop()
-    const aTag = document.createElement('a');
-    aTag.href=url;
-    aTag.setAttribute('download', fileName)
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
+  const handleDownload = () => {
+    // Substitua 'exemplo.pdf' pelo caminho correto para o seu arquivo PDF.
+    const PDFFILEPATH = COVERLETTER;
+
+    // Crie um elemento 'a' para simular o clique e iniciar o download.
+    const link = document.createElement('a');
+    link.href = PDFFILEPATH;
+    link.download = 'desenvblockchain.pdf'; // Nome que o arquivo terá ao ser baixado
+    link.click();
   };
 
     return (
@@ -27,7 +28,7 @@ const Main = () => {
 
             <p>Apaixonada por tecnologia, principalmente aquelas que <br /> envolvem o mercado de Blockchain, como: DEFI, NFT, <br /> DAOS, Cryptos e etc.</p>
 
-            <button onClick={() =>{downloadFile(COVERLETTER)}}> &#129139; Download CV</button>
+            <button onClick={handleDownload}> &#129139; Download CV</button>
           </div>
 
           <div className='profile-img'>
