@@ -8,13 +8,12 @@ const COVERLETTER = curriculo;
 const Main = () => {
 
   const handleDownload = () => {
-    // Substitua 'exemplo.pdf' pelo caminho correto para o seu arquivo PDF.
+   
     const PDFFILEPATH = COVERLETTER;
 
-    // Crie um elemento 'a' para simular o clique e iniciar o download.
     const link = document.createElement('a');
     link.href = PDFFILEPATH;
-    link.download = 'desenvblockchain.pdf'; // Nome que o arquivo terá ao ser baixado
+    link.download = 'desenvblockchain.pdf';
     link.click();
   };
 
