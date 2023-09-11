@@ -26,12 +26,12 @@ const Footer = () => {
           </h2>
           <ul>
             <li>
-              <a href="">
+              <a href=""  target='blank_'> 
                 <img src={LINKEDIN}alt="LINKEDIN" />
               </a>
             </li> 
             <li>
-              <a href="">
+              <a href=""  target='blank_'>
                 <img src={GITHUB} alt="GITHUB" />
               </a>
             </li>          
