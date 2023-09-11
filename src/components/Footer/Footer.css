@@ -31,7 +31,8 @@
     justify-content: center;
     align-items: center;
     font-size: 38px; 
-    margin: 20px 0;   
+    margin: 20px 0;
+    color: #fff;   
 }
 
 .titlefooter p {
@@ -44,22 +45,6 @@
     grid-area: "chatme";
     justify-content: center;
     max-width: 1000px;
-}
-
-.chatme li{
-    list-style: none;
-    background-color: #ffffff0c;
-    border-radius: 10px;
-    padding: 6px 20px;
-}
-
-.chatme a{
-    color: #81099f;
-    text-decoration: none;
-}
-
-.chatme a:hover {
-    color: aliceblue;
 }
 
 .social {
@@ -87,7 +72,7 @@
 }
 
 .social img:hover {
-    background-color: #9718ad4c;
+    background-color: #f7f4304a;
     border-radius: 6px;
 }
 
