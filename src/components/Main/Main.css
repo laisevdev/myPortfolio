@@ -58,10 +58,15 @@ button {
     background-color: #f7f430;
     border-radius: 5px;
     cursor: pointer;
+    outline: #f6e207;
+    border: none;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
 }
 
 button:hover {
-    background-color: #f6e207;
+    background-color: #222221;
+    color: #f6e207;
+    border: 1px solid #f6e207;
 }
 
 
