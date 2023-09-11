@@ -1,6 +1,6 @@
 import './Footer.css'
 import imglinkedin from '../../Assets/linkedin.png'
-import imggithub from '../../Assets/github.png'
+import imggithub from '../../Assets/giticon.png'
 
 const LINKEDIN = imglinkedin;
 const GITHUB = imggithub;
@@ -22,7 +22,7 @@ const Footer = () => {
 
           <div className='social'>
           <h2>
-            ©Laíse Alves 2023
+            © Laíse Alves 2023
           </h2>
           <ul>
             <li>
