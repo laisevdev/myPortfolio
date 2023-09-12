@@ -1,5 +1,6 @@
 import './Navbar.css'
 import imglogo from '../../Assets/Logotipo.jpg'
+import { motion } from "framer-motion"
 
 const logo = imglogo;
 
@@ -7,7 +8,6 @@ const Navbar = () => {
   return (
   <>
     <nav className='navbar'>
-
       <div className='logotipo'>
           <img className='image' src={logo} alt='Logotipo'/>      
       </div>  
