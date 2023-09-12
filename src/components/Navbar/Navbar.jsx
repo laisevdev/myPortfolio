@@ -1,6 +1,6 @@
 import './Navbar.css'
 import imglogo from '../../Assets/Logotipo.jpg'
-import { motion } from "framer-motion"
+
 
 const logo = imglogo;
 
