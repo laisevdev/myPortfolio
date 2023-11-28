@@ -7,7 +7,6 @@
 .navbar {
     max-width: 1100px;
     margin: 30px auto;
-
     display: grid;
     grid-template-areas: "logotipo menu";
 }
@@ -27,7 +26,7 @@
 .menu a {
     text-decoration: none;
     font-size: 22px;
-
+    color: #81099f;
     background-color: #ffffff0c;
     border-radius: 5px;
     padding: 5px 10px;
