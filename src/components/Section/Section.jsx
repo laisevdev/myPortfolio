@@ -1,11 +1,16 @@
-import './Section.css'
+import './Section.css';
+import InView from '../UseInView/InView';
 
-const Section = () => {
+const Section = ()  => {
+  
+  
   return (
-    <>
+    <> 
+    <InView>
     <section className='section'>
-
+    
       <section className="aboutme">
+
         <h1>Prazer em te conhecer!</h1>
 
         <p>
@@ -20,7 +25,9 @@ const Section = () => {
         </p>
       </section>
 
-      <section className="skills">
+      <section
+       className="skills"        
+      >
         <h1>
           Minhas Habilidades
         </h1>
@@ -74,9 +81,9 @@ const Section = () => {
             Leonardo Int.Artificial
           </li>
         </ul>
-      </section>
-
-    </section>
+      </section> 
+      </section>  
+      </InView> 
     </>
   )
 }
