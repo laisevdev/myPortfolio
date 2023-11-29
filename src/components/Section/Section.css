@@ -7,11 +7,10 @@
 
 .section {
     max-width:1000px;
-    height: 100vh;
+    max-height: 650px;
     display: grid;
     grid-template-areas: "aboutme skills";
-
-    margin: 30px auto;
+    margin: 10px auto 80px auto;
     gap: 100px;
 
 }
@@ -23,7 +22,7 @@
 .aboutme h1 {
     color: #fff;
     font-family: 'Robot Condensed';
-    font-size: 42px;
+    font-size: 35px;
     margin-bottom: 35px;
 }
 
@@ -43,7 +42,7 @@
 .skills h1 {
     color: #fff;
     font-family: 'Robot Condensed';
-    font-size: 42px;
+    font-size: 35px;
     margin-bottom: 35px;
 }
 
