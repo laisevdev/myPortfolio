@@ -2,6 +2,8 @@ import './Footer.css'
 import imglinkedin from '../../Assets/linkedin.png'
 import imggithub from '../../Assets/giticon.png'
 
+import InView from '../UseInView/InView';
+
 const LINKEDIN = imglinkedin;
 const GITHUB = imggithub;
 const TELEGRAM_LINK = 'https://t.me/laisev';
@@ -12,6 +14,7 @@ const GITHUB_LINK = 'https://github.com/laisevdev';
 const Footer = () => {
   return (
     <>
+      <InView>
         <section className='footer'>
           <div className='titlefooter'>
             <h1>Entre em contato</h1>
@@ -42,6 +45,7 @@ const Footer = () => {
           </ul>
           </div>
         </section>
+      </InView>
     </>
   )
 }
