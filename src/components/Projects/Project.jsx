@@ -9,6 +9,9 @@ import imgreactjs from '../../Assets/reactjs.png'
 import imghardhat from '../../Assets/hardhat.png'
 import imgethproj from '../../Assets/eth-proj.png'
 
+import InView from '../UseInView/InView';
+
+
 
  
 const NFT_MINT = imgdapp;
@@ -29,18 +32,17 @@ const HARDHAT = imghardhat;
 const Project = () => {
   return (
     <>
-     <div className='titleproj'>
-               <h1>
-                    Projetos
-                </h1>
+    <InView>
+        <div className='titleproj' >
+             <h1>
+                Projetos
+            </h1>
+            <p>
+                Aqui estão alguns projetos nos quais eu construí ao longo da minha jornada.
+            </p>                
+        </div>  
 
-                <p>
-                    Aqui estão alguns projetos nos quais eu construí ao longo da minha jornada.
-                </p>
-            
-               </div>  
-        
-        <section className='projects'>                           
+        <section className='projects '>                           
             
                 <div className='card'>
                     <div className="loader">
@@ -211,10 +213,9 @@ const Project = () => {
                             🌐 Visite o site
                             </a>
                         </li>
-                    </div>
-
-            
-        </section>
+                    </div>            
+            </section>
+    </InView>          
     </>
   )
 }
