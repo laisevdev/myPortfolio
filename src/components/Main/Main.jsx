@@ -2,6 +2,8 @@ import './Main.css'
 import imgprof from '../../Assets/profile.jpeg'
 import curriculo from '../../Assets/desenvblockchain.pdf'
 
+import { motion } from "framer-motion";
+
 const PICTURE = imgprof;
 const COVERLETTER = curriculo;
 
@@ -18,7 +20,13 @@ const Main = () => {
   };
 
     return (
-      <>  
+      <> 
+       <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ ease: "easeInOut", duration: 1.0, delay: 0.3 }}
+      >
+        
         <main className='main'>
           <div className='profile'>    
             <h1 className='title'>Olá, Bem-vindo(a)!🖐Sou <span className='myname'>Laíse Vieira Alves</span></h1>
@@ -34,7 +42,7 @@ const Main = () => {
             <img src={PICTURE} alt="profile" />
           </div>
         </main>    
-       
+      </motion.div>  
       </>  
     )
   }
