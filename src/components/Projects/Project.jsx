@@ -33,6 +33,7 @@ const Project = () => {
   return (
     <>
     <InView>
+    <section className='container-project'>
         <div className='titleproj' >
              <h1>
                 Projetos
@@ -215,6 +216,7 @@ const Project = () => {
                         </li>
                     </div>            
             </section>
+        </section>
     </InView>          
     </>
   )
