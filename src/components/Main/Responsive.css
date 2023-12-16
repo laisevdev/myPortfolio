@@ -1,0 +1,9 @@
+@media (max-width:1024px) {
+    .main {
+        max-width: 900px; 
+    }
+
+    .profile-img img {
+        max-width: 290px;    
+    }
+}
