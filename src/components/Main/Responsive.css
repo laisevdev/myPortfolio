@@ -7,3 +7,33 @@
         max-width: 290px;    
     }
 }
+
+
+@media (max-width:768px) {
+    .main {
+        max-width: 730px;
+        margin: 130px 30px;
+    }
+
+    .profile, h1 {
+        font-size: 16px;
+    }
+    
+    .myname {
+        font-size: 20px;
+    }
+    
+    .profile, h2 {
+        font-size: 48px;
+    }
+    
+    .block {
+        display: block;
+        font-size: 48px;   
+    }
+    
+    .profile p {
+        font-size: 16px;
+    }  
+    
+}
