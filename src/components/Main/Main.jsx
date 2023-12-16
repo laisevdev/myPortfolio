@@ -3,6 +3,7 @@ import imgprof from '../../Assets/profile.jpeg'
 import curriculo from '../../Assets/desenvblockchain.pdf'
 
 import { motion } from "framer-motion";
+import './Responsive.css'
 
 const PICTURE = imgprof;
 const COVERLETTER = curriculo;
