@@ -1,5 +1,6 @@
 import './Section.css';
 import InView from '../UseInView/InView';
+import './Responsive.css'
 
 const Section = ()  => {
   
