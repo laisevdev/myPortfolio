@@ -1,5 +1,6 @@
 import './Navbar.css'
 import imglogo from '../../Assets/Logotipo.jpg'
+import './Responsive.css'
 
 
 const logo = imglogo;
