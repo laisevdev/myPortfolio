@@ -3,3 +3,28 @@
         max-width:900px;       
     }
 }
+
+
+@media (max-width:768px) {
+    .section {
+        max-width:730px;  
+        margin: 130px 20px;
+        gap: 60px;     
+    }
+
+    .aboutme h1,  .skills h1 {
+        font-size: 28px;
+    }  
+    
+    .skills h2 {
+        font-size: 16px;
+    }
+    
+    .abilities {
+        display: inline-block;
+    }
+    
+    .skills li {
+        font-size: 18px;
+    } 
+}
