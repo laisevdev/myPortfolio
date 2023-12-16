@@ -10,6 +10,7 @@ import imghardhat from '../../Assets/hardhat.png'
 import imgethproj from '../../Assets/eth-proj.png'
 
 import InView from '../UseInView/InView';
+import './Responsive.css';
 
 
 
