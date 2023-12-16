@@ -1,0 +1,20 @@
+@media (max-width:1024px) {
+    .navbar {
+        max-width: 900px;
+        margin: 30px auto;
+        display: grid;
+        grid-template-areas: "logotipo menu";
+    }
+
+    .menu li {
+        padding: 0 6px;
+    }
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:480px) {
+
+}
