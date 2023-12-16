@@ -1,0 +1,5 @@
+@media (max-width:1024px) {
+    .projects {
+        max-width:900px;
+    }
+}
