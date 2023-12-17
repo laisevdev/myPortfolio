@@ -3,3 +3,44 @@
         max-width:900px;
     }
 }
+
+@media (max-width:768px) {
+    .projects {
+        max-width:730px;    
+        margin: 80px 20px;
+        gap: 60px;
+    }
+
+    .titleproj h1{
+        font-size: 28px;        
+    }
+    
+    .titleproj p {
+        font-size: 18px;
+    }
+    
+    .description {
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .description h1 {
+        font-size: 16px;
+    }
+ 
+    
+    .card {
+        width: 310px;
+    }
+
+    .card img {
+        max-width: 300px;
+        height: 220px;
+    }     
+    
+    .technologies img {
+        display: flex;
+        max-width: 60px;
+        height: 30px;
+    }
+}
