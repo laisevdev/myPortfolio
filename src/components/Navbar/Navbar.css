@@ -11,6 +11,10 @@
     grid-template-areas: "logotipo menu";
 }
 
+.checkbox-menu {
+    display: none;
+}
+
 .menu {
     grid-area: "menu";
     display: flex;
