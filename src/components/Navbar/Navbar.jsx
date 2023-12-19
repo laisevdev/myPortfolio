@@ -12,12 +12,6 @@ const Navbar = () => {
           <img className="image" src={logo} alt="Logotipo" />
         </div>
 
-        <label className="checkbox-menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-
         <ul className="menu">
           <li>
             <a href="#sobremim">Inicio</a>
