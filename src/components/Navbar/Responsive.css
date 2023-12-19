@@ -18,5 +18,14 @@
 }
 
 @media (max-width:480px) {
+    .navbar {
+        max-width: 360px;
+        margin: 30px 10px;
+        display: flex;
+    }
 
+    .logotipo {
+        display: none;
+    }   
+   
 }
