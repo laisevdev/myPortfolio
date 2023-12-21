@@ -6,6 +6,10 @@
         grid-template-areas: "logotipo menu";
     }
 
+    .menu-mobile {
+        display: none;
+    }
+
     .menu li {
         padding: 0 6px;
     }
@@ -15,17 +19,18 @@
     .navbar {
         max-width: 730px;
     }
+    .menu-mobile {
+        display: none;
+    }
 }
 
 @media (max-width:480px) {
-    .navbar {
-        max-width: 360px;
-        margin: 30px 10px;
-        display: flex;
+
+    .menu {
+        display: none;
     }
 
     .logotipo {
         display: none;
-    }   
-   
+    }      
 }
