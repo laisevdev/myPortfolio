@@ -2,6 +2,7 @@ import "./Navbar.css";
 import imglogo from "../../Assets/Logotipo.jpg";
 import "./Responsive.css";
 
+
 const logo = imglogo;
 
 const Navbar = () => {
@@ -10,8 +11,8 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="logotipo">
           <img className="image" src={logo} alt="Logotipo" />
-        </div>
-
+        </div>       
+        
         <ul className="menu">
           <li>
             <a href="#sobremim">Inicio</a>
