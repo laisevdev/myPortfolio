@@ -3,3 +3,9 @@
     margin: 0 auto;
     box-sizing: border-box;
     }
+
+@media (min-width:481px){
+    .style-mobile {
+        display: none;
+    }
+}
