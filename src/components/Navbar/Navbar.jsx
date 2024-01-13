@@ -2,38 +2,34 @@ import "./Navbar.css";
 import imglogo from "../../Assets/Logotipo.jpg";
 import "./Responsive.css";
 
-
-const logo = imglogo;
-
 const Navbar = () => {
-  return (
-    <>
-      <nav className="navbar">
-        <div className="logotipo">
-          <img className="image" src={logo} alt="Logotipo" />
-        </div>       
-        
-        <ul className="menu">
-          <li>
-            <a href="#sobremim">Inicio</a>
-          </li>
-          <li>
-            <a href="#sobremim">Sobre Mim</a>
-          </li>
-          <li>
-            <a href="#projetos">Projetos</a>
-          </li>
+    const logo = imglogo;
 
-          <li>
-            <a href="#formacao">Formação</a>
-          </li>
-          <li className="contato">
-            <a href="#contato">Contato</a>
-          </li>
-        </ul>
-      </nav>
-    </>
-  );
+    const navBarLinks = [
+        { name: "Início", link: "#inicio" },
+        { name: "Sobre mim", link: "#sobremim" },
+        { name: "Projetos", link: "#projetos" },
+        { name: "Formação", link: "#formacao" },
+        { name: "Contato", link: "#contato" },
+    ];
+
+    return (
+        <>
+            <nav className="navbar">
+                <div className="logotipo">
+                    <img className="image" src={logo} alt="Logotipo" />
+                </div>
+
+                <ul className="menu">
+                    {navBarLinks.map((link) => (
+                        <li key={link.name}>
+                            <a href={link.link}>{link.name}</a>
+                        </li>
+                    ))}
+                </ul>
+            </nav>
+        </>
+    );
 };
 
 export default Navbar;
