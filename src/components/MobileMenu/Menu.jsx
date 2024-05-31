@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { TiThMenu } from "react-icons/ti";
 import { IoCloseSharp } from "react-icons/io5";
-import './Menu.css'
+import './Menu.css';
 
 const MenuMobile = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,11 +11,8 @@ const MenuMobile = () => {
   };
 
   const handleResize = () => {
-    if (window.innerWidth > 768 && !menuOpen) {
+    if (window.innerWidth > 768 && menuOpen) {
       setMenuOpen(false);
-    }
-    if (window.innerWidth < 426 && menuOpen) {
-      setMenuOpen(true);
     }
   };
 
@@ -28,38 +25,31 @@ const MenuMobile = () => {
   }, [menuOpen]);
 
   return (
-    <>
-
     <nav className="navbar-mobile">
       <div className="open-mobile" onClick={toggleMenu}>
-            {menuOpen ? <IoCloseSharp color="white"/> : <TiThMenu color="white"/>}
+        {menuOpen ? <IoCloseSharp color="white" size="26px"/> : <TiThMenu color="white" size="35px"/>}
       </div>
-    
-        <nav className="mobile">
-        {menuOpen ?
-          <ul>
+      {menuOpen && (
+        <div className="mobile-menu">
+          <div className="close-mobile" onClick={toggleMenu}>
+            <IoCloseSharp color="white" size="26px"/>
+          </div>
+          <ul onClick={toggleMenu}>
             <li>
-              <a href="#sobremim">Inicio</a>
+              <a href="#sobremim" onClick={toggleMenu}>Sobre Mim</a>
             </li>
             <li>
-              <a href="#sobremim">Sobre Mim</a>
-            </li>
-            <li>
-              <a href="#projetos">Projetos</a>
-            </li>
-            <li>
-              <a href="#formacao">Cursos</a>
+              <a href="#projetos" onClick={toggleMenu}>Projetos</a>
             </li>
             <li className="contato">
-              <a href="#contato">Contato</a>
+              <a href="#contato" onClick={toggleMenu}>Contato</a>
             </li>
-          </ul> 
-           : <></>}
-        </nav>
+          </ul>
+        </div>
+      )}
     </nav>
-
-    </>
   );
 };
 
 export default MenuMobile;
+

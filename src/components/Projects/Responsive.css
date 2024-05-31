@@ -4,11 +4,19 @@
     }
 }
 
-@media (max-width:768px) {
+@media (min-width:768px) and (max-width: 835px)  {
+    .container-project {
+        max-width: 750px;
+        justify-content: center;
+    }
     .projects {
-        max-width:730px;    
-        margin: 80px 20px;
-        gap: 60px;
+        max-width:700px;    
+        margin: 50px auto;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
     }
 
     .titleproj h1{
