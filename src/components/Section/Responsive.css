@@ -32,7 +32,7 @@
 @media (max-width: 480px) {
     .section {
         max-width: 100vw;
-        max-height: 1600px;
+        max-height: 1700px;
         display: flex;
         flex-direction: column;
         margin: 0px 10px;
