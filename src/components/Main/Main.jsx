@@ -36,7 +36,11 @@ const Main = () => {
 
             <p>Apaixonada por tecnologia, principalmente aquelas que <br /> envolvem o mercado de Blockchain, como: DEFI, NFT, <br /> DAOS, Cryptos e etc.</p>
 
-            <button onClick={handleDownload}> &#129139; Download CV</button>
+            <div className='button-main-mobile'>
+              <button onClick={handleDownload}> 
+                &#129139; Download CV
+              </button>
+            </div>
           </div>
 
           <div className='profile-img'>
