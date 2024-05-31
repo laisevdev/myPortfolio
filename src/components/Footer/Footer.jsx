@@ -3,6 +3,7 @@ import imglinkedin from '../../Assets/linkedin.png'
 import imggithub from '../../Assets/giticon.png'
 
 import InView from '../UseInView/InView';
+import './Responsive.css'
 
 const LINKEDIN = imglinkedin;
 const GITHUB = imggithub;
