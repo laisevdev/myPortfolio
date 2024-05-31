@@ -37,20 +37,11 @@ const Main = () => {
                             <span className="block"> Blockchain</span>
                         </h2>
 
-<<<<<<< HEAD
-            <div className='button-main-mobile'>
-              <button onClick={handleDownload}> 
-                &#129139; Download CV
-              </button>
-            </div>
-          </div>
-=======
                         <p>
                             Apaixonada por tecnologia, principalmente aquelas
                             que <br /> envolvem o mercado de Blockchain, como:
                             DEFI, NFT, <br /> DAOS, Cryptos e etc.
                         </p>
->>>>>>> 7a4a89a94ec70b08ae3ffff151cee4b1057273ff
 
                         <button onClick={handleDownload}>
                             {" "}
@@ -66,5 +57,6 @@ const Main = () => {
         </div>
     );
 };
+
 
 export default Main;
