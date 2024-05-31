@@ -43,10 +43,13 @@ const Main = () => {
                             DEFI, NFT, <br /> DAOS, Cryptos e etc.
                         </p>
 
-                        <button onClick={handleDownload}>
-                            {" "}
-                            &#129139; Download CV
-                        </button>
+                        <div className="button-main-mobile">
+                            <button onClick={handleDownload}>
+                                {" "}
+                                &#129139; Download CV
+                            </button>
+                        </div>
+                       
                     </div>
 
                     <div className="profile-img">
