@@ -61,6 +61,10 @@ const Section = () => {
                             <li>EthersJS</li>
                             <li>Hardhat</li>
                             <li>ReactJS</li>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>Django Rest Framework</li>
+                            <li>PostgreSQL</li>
                             <li>Metamask</li>
                             <li>Biblioteca Openzeppelin</li>
                             <li>ERC-721</li>
