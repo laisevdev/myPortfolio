@@ -36,7 +36,11 @@
 }
 
 .titlefooter p {
-    font-size: 19px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 1.2rem;
     color: #e5e4e18c;    
 }
 
@@ -45,6 +49,10 @@
     grid-area: "chatme";
     justify-content: center;
     max-width: 1000px;
+}
+
+.chatme a {
+    text-decoration: none;
 }
 
 .social {
