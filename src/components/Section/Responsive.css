@@ -53,7 +53,7 @@
 
     .aboutme p {
         color: #e5e4e1c8;
-        font-size: 1.2rem; 
+        font-size: 1rem; 
         padding-bottom: 10px;
         text-align: justify;
         line-height: 35px;
@@ -96,7 +96,7 @@
         margin: 5px; 
         border-radius: 5px;
         color: #e5e4e1d9;
-        font-size: 1.2rem;
+        font-size: 1rem;
         list-style: none;
         background-color: #ffffff0c;
         cursor: pointer;
