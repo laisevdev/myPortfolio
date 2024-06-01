@@ -42,11 +42,11 @@
             max-width: 100vw;
             height: 100vh;
             display: flex;
-            flex-direction: column; /* Adicionado */
-            justify-content: center; /* Alterado */
+            flex-direction: column; 
+            justify-content: center; 
             align-items: center;
             margin: 0 auto;
-            font-family: 'Roboto Condensed', sans-serif; /* Corrigido */
+            font-family: 'Roboto Condensed', sans-serif; 
         }
     
         .profile, h1 {
@@ -72,7 +72,7 @@
             font-size: 2rem;
             color: #81099f;
             font-family: 'Roboto', 'Times New Roman', Times, serif;
-            text-align: center; /* Alterado */
+            text-align: center; 
         }
     
         .profile p {
@@ -82,15 +82,24 @@
             text-align: justify;
             margin: 15px;
         }
-    
+
         .profile-img img {
             display: none;
         }
     
+        .profile-img-mobile img {
+            display: flex; 
+            flex-direction: column-reverse;
+            width: 150px; 
+            height: 150px; 
+            border-radius: 50%; 
+            margin: 20px auto; 
+        }
+    
         .button-main-mobile {
             display: flex;
-            justify-content: center; /* Adicionado */
-            width: 100%; /* Adicionado */
+            justify-content: center; 
+            width: 100%; 
         }
     
         button {
