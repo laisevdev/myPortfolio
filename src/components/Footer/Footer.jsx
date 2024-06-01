@@ -1,4 +1,5 @@
 import "./Footer.css";
+import "./Responsive.css";
 import imglinkedin from "../../Assets/linkedin.png";
 import imggithub from "../../Assets/giticon.png";
 
