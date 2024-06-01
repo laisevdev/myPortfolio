@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
       <div className="style-mobile">
-      <MenuMobile />
+        <MenuMobile />
       </div>
       <Navbar />
       <Main />
