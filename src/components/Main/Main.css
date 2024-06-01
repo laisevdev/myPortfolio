@@ -49,7 +49,10 @@
 .profile-img img {
     max-width: 320px;
     border-radius: 8px;
+}
 
+.profile-img-mobile img {
+    display: none;
 }
 
 button {
