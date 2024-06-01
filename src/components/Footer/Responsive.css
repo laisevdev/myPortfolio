@@ -1,0 +1,86 @@
+@media (max-width: 480px) {
+    .footer {
+        max-width: 100vw;
+        height: 400px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto; 
+        padding: 10px;
+    }
+
+    .titlefooter {
+        max-width: 100vw;
+        text-align: center;
+        margin-bottom: 20px; 
+    }
+
+    .titlefooter h1 {
+        font-size: 24px; 
+        margin: 10px 0; 
+        color: #fff;   
+    }
+
+    .titlefooter p {
+        margin: 0 10px;
+        padding: 0 10px; 
+        font-size: 1rem; 
+        color: #e5e4e18c;    
+    }
+
+    .chatme {
+        display: flex;
+        justify-content: center;
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+
+    .chatme a {
+        text-decoration: none;
+        font-size: 1rem; 
+        color: #81099f; 
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        width: 100%; 
+        margin: 0 auto;
+    }
+
+    .social ul {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .social li {
+        list-style: none;
+        margin: 5px; 
+    }
+
+    .social img {
+        max-width: 25px; 
+        height: 25px; 
+        margin: 0 5px; 
+        padding: 0; 
+    }
+
+    .social img:hover {
+        background-color: #f7f4304a;
+        border-radius: 6px;
+    }
+
+    .social h2 {
+        font-size: 16px; 
+        color: #fff;
+        margin-bottom: 10px;
+        text-align: center; 
+    }
+}
+
+
