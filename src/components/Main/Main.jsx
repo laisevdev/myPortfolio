@@ -27,6 +27,9 @@ const Main = () => {
             >
                 <main className="main">
                     <div className="profile">
+                        <div className="profile-img-mobile">
+                            <img src={PICTURE} alt="profile" />
+                        </div>
                         <h1 className="title">
                             Olá, Bem-vindo(a)!🖐Sou{" "}
                             <span className="myname">Laíse Vieira Alves</span>
