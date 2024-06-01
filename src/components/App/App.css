@@ -5,3 +5,8 @@
     overflow-x: hidden;
     }
 
+    @media (min-width:481px) {
+        .style-mobile {
+          display: none;
+        }
+      }
