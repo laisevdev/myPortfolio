@@ -53,8 +53,8 @@ a[href^="#contato"]  {
 }
 
 .image:hover {
-    transform: translateZ(-0.7px) scale(1.3);
-    animation: rotacao 2s linear;
+    transform: translateZ(-2px) scale(1.2);
+    animation: rotacao 1s linear;
 }
 
 @keyframes rotacao {
