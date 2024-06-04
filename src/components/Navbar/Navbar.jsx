@@ -9,7 +9,7 @@ const Navbar = () => {
         { name: "Início", link: "#inicio" },
         { name: "Sobre mim", link: "#sobremim" },
         { name: "Projetos", link: "#projetos" },
-        { name: "Formação", link: "#formacao" },
+      /*  { name: "Formação", link: "#formacao" }, */
         { name: "Contato", link: "#contato" },
     ];
 
