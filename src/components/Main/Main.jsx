@@ -1,6 +1,6 @@
 import "./Main.css";
 import imgprof from "../../Assets/profile.jpeg";
-import curriculo from "../../Assets/desenvblockchain.pdf";
+import curriculo from "../../Assets/curriculo_coverletter_dev2024.pdf";
 
 import { motion } from "framer-motion";
 import "./Responsive.css";
@@ -14,7 +14,7 @@ const Main = () => {
 
         const link = document.createElement("a");
         link.href = PDFFILEPATH;
-        link.download = "desenvblockchain.pdf";
+        link.download = "curriculo_coverletter_dev2024.pdf";
         link.click();
     };
 
